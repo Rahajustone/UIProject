@@ -13,9 +13,9 @@ namespace UIProjects.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EntryController : ControllerBase
+    public class FeedController : ControllerBase
     {
-        // GET: api/<ValuesController>
+        // GET: api/<FeedController>
         [HttpGet]
         public IActionResult Get()
         {
